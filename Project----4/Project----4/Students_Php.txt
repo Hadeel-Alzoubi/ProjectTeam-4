@@ -1,2 +1,1 @@
-1001,Lujain saifelddin moh'd alazzam,lujainalazzam98@gmail.com,02828872877,PHP
-100,hadeel,hadeel@gmail.com,111111,PHP
+10,hadeel,hadeelzoubi@gmail.com,20000,PHP

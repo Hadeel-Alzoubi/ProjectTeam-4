@@ -36,9 +36,7 @@
                 <span class="navbar-toggler-icon"></span>
             </asp:LinkButton>
 
-            <asp:Panel runat="server" CssClass="collapse navbar-collapse" ID="navbarNav" style="
-    justify-content: flex-end;
-">
+            <asp:Panel runat="server" CssClass="collapse navbar-collapse" ID="navbarNav" style="justify-content: flex-end;">
                 <ul class="navbar-nav ms-lg-auto" style="display:none">
                     <li class="nav-item">
                         <asp:HyperLink runat="server" NavigateUrl="index.aspx" CssClass="nav-link">Home</asp:HyperLink>

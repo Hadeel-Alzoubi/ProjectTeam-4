@@ -72,6 +72,7 @@
                     </asp:LinkButton>
 
                     <asp:Panel runat="server" CssClass="collapse navbar-collapse" ID="navbarNav" style="justify-content:flex-end">
+                         <asp:HyperLink runat="server" NavigateUrl="Admin_Services.aspx" CssClass="btn custom-btn custom-border-btn smoothscroll ms-4">Admin Services</asp:HyperLink>
                         <asp:HyperLink runat="server" NavigateUrl="login.aspx" CssClass="btn custom-btn custom-border-btn smoothscroll ms-4">LOGOUT</asp:HyperLink>
                     </asp:Panel>
                 </div>

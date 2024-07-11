@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="result for each student.aspx.cs" Inherits="Project____4.result_for_each_student" %>
+
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -31,8 +32,8 @@
                         <span class="navbar-toggler-icon"></span>
                     </asp:LinkButton>
 
-                    <asp:Panel runat="server" CssClass="collapse navbar-collapse" ID="navbarNav">
-                        <ul class="navbar-nav ms-lg-auto">
+                    <asp:Panel runat="server" CssClass="collapse navbar-collapse" ID="navbarNav" Style="justify-content: flex-end">
+                        <ul class="navbar-nav ms-lg-auto" style="display: none">
                             <li class="nav-item">
                                 <asp:HyperLink runat="server" NavigateUrl="home.aspx" CssClass="nav-link">Home</asp:HyperLink>
                             </li>
@@ -43,7 +44,8 @@
                                 <asp:HyperLink runat="server" NavigateUrl="contact.aspx" CssClass="nav-link">Contact</asp:HyperLink>
                             </li>
                         </ul>
-                        <asp:HyperLink runat="server" NavigateUrl="login.aspx" CssClass="btn custom-btn custom-border-btn smoothscroll ms-4">LOGIN</asp:HyperLink>
+                         <asp:HyperLink runat="server" NavigateUrl="Add tec.aspx" CssClass="btn custom-btn custom-border-btn smoothscroll ms-4">Backe To DashBoard</asp:HyperLink>
+                        <asp:HyperLink runat="server" NavigateUrl="login.aspx" CssClass="btn custom-btn custom-border-btn smoothscroll ms-4">LOGOUT</asp:HyperLink>
                     </asp:Panel>
                 </div>
             </asp:Panel>
@@ -62,8 +64,12 @@
                     </Columns>
                 </asp:GridView>
             </div>
+            
+            <div style="width:100%; display:flex; justify-content:center;">
+                <asp:Button ID="btnDownload" runat="server" Text="Download as File" OnClick="btnDownload_Click" CssClass="btn btn-primary mt-3" />
+            </div>
 
-            <asp:Button ID="btnDownload" runat="server" Text="Download as File" OnClick="btnDownload_Click" CssClass="btn btn-primary mt-3" />
+            
 
             <asp:Panel runat="server" CssClass="empty-space" Style="height: 50px;"></asp:Panel>
             <asp:Panel runat="server" CssClass="empty-space" Style="height: 50px;"></asp:Panel>
@@ -79,7 +85,7 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
-                       <%-- <h6 class="site-footer-title mb-3">Links</h6>
+                        <%-- <h6 class="site-footer-title mb-3">Links</h6>
                         <ul class="site-footer-links">
                             <li class="site-footer-link-item" style="display: block !important;">
                                 <a href="home.aspx" class="site-footer-link">Home</a>
@@ -125,7 +131,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-12">
-                        <div style="display:flex; justify-content:center;">
+                        <div style="display: flex; justify-content: center;">
                             <p>Copyright © 2024 CodeSphere Academy</p>
                         </div>
                     </div>

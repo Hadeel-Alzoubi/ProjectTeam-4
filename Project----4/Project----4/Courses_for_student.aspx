@@ -79,7 +79,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </asp:LinkButton>
 
-                    <asp:Panel runat="server" CssClass="collapse navbar-collapse" ID="navbarNav">
+                    <asp:Panel runat="server" CssClass="collapse navbar-collapse" ID="navbarNav"  style="justify-content:flex-end">
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
    
  </div>

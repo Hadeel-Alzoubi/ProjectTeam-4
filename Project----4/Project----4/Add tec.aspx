@@ -155,6 +155,7 @@
                             </li>
                         </ul>
                         <div class="ms-4">
+                             <asp:HyperLink runat="server" NavigateUrl="Admin_Services.aspx" CssClass="btn custom-btn custom-border-btn smoothscroll ms-4">Admin Services</asp:HyperLink>
                             <asp:LinkButton ID="LinkButtonLogout" runat="server" OnClick="LinkButtonLogout_Click" CssClass="btn custom-btn custom-border-btn smoothscroll ms-4">Logout</asp:LinkButton>
 
                         </div>

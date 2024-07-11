@@ -1,5 +1,4 @@
-User ID: 1001
-what do you think: Very Bad
-kfdl: Very Bad
-ds: Very Bad
+User ID: 10
+are you okay in this course ??: Excellent
+what do you think about course enginiral ?: Excellent
 

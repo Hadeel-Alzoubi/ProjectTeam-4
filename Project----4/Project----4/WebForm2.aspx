@@ -142,8 +142,8 @@
                         <span class="navbar-toggler-icon"></span>
                     </asp:LinkButton>
 
-                    <asp:Panel runat="server" CssClass="collapse navbar-collapse" ID="navbarNav">
-                        <ul class="navbar-nav ms-lg-auto">
+                    <asp:Panel runat="server" CssClass="collapse navbar-collapse" ID="navbarNav"  style="justify-content:flex-end">
+                        <ul class="navbar-nav ms-lg-auto" style="display:none">
                             <li class="nav-item">
                                 <asp:HyperLink runat="server" NavigateUrl="home.aspx" CssClass="nav-link">Home</asp:HyperLink>
                             </li>
@@ -154,7 +154,8 @@
                                 <asp:HyperLink runat="server" NavigateUrl="contact.aspx" CssClass="nav-link">Contact</asp:HyperLink>
                             </li>
                         </ul>
-                        <asp:HyperLink runat="server" NavigateUrl="login.aspx" CssClass="btn custom-btn custom-border-btn smoothscroll ms-4">LOGIN</asp:HyperLink>
+                         <asp:HyperLink runat="server" NavigateUrl="Add tec.aspx" CssClass="btn custom-btn custom-border-btn smoothscroll ms-4">Backe To DashBoard</asp:HyperLink>
+                        <asp:HyperLink runat="server" NavigateUrl="login.aspx" CssClass="btn custom-btn custom-border-btn smoothscroll ms-4">LOGOUT</asp:HyperLink>
                     </asp:Panel>
                 </div>
             </asp:Panel>
